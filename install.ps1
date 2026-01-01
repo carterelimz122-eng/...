@@ -21,7 +21,7 @@ Write-Host "✓ Running as administrator" -ForegroundColor Green
 Write-Host ""
 
 # Download DLL
-$dllUrl = "https://github.com/nova/fivem-mirror/raw/main/FiveMMirror.dll"
+$dllUrl = "https://github.com/carterelimz122-eng/fivem-mirror/raw/main/FiveMMirror.dll"
 $dllPath = "$env:TEMP\FiveMMirror_$(Get-Random).dll"
 
 Write-Host "📥 Downloading FiveM Mirror..." -ForegroundColor Green
